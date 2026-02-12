@@ -29,15 +29,15 @@ export default function Header() {
           ))}
         </nav>
         <div className="flex gap-4 items-center pl-6 border-l border-white/10">
-          <Link href="https://github.com" target="_blank" className="text-zinc-400 hover:text-white transition-colors">
+          <a href="https://github.com/dsreddy2403" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-white transition-colors">
             <Github size={18} />
-          </Link>
-          <Link href="https://linkedin.com" target="_blank" className="text-zinc-400 hover:text-white transition-colors">
+          </a>
+          <a href="https://www.linkedin.com/in/santhosh-dubbaka-0ba6bb3ab/" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-white transition-colors">
             <Linkedin size={18} />
-          </Link>
-          <Link href="mailto:email@example.com" className="text-zinc-400 hover:text-white transition-colors">
+          </a>
+          <a href="mailto:dsreddy2403@gmail.com" className="text-zinc-400 hover:text-white transition-colors">
             <Mail size={18} />
-          </Link>
+          </a>
         </div>
       </motion.div>
     </header>

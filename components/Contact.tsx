@@ -44,8 +44,8 @@ export default function Contact() {
                                 <span className="text-lg">+1 817-668-5116</span>
                             </div>
 
-                            {/*  LinkedIn Placeholder since URL wasn't text-selectable but visible */}
-                            <a href="https://www.linkedin.com" target="_blank" className="flex items-center gap-4 text-zinc-300 hover:text-blue-400 transition-colors group">
+                            {/*  LinkedIn */}
+                            <a href="https://www.linkedin.com/in/santhosh-dubbaka-0ba6bb3ab/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-zinc-300 hover:text-blue-400 transition-colors group">
                                 <div className="p-3 bg-white/5 rounded-lg group-hover:bg-blue-500/10 transition-colors">
                                     <Linkedin size={24} className="text-blue-400" />
                                 </div>

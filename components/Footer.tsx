@@ -6,18 +6,17 @@ export default function Footer() {
                     &copy; {new Date().getFullYear()} Your Name. All rights reserved.
                 </p>
                 <div className="mt-4 flex justify-center space-x-6">
-                    {/* Placeholder for social links */}
-                    <a href="#" className="text-zinc-400 hover:text-zinc-500 dark:hover:text-zinc-300">
+                    <a href="https://github.com/dsreddy2403" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-zinc-500 dark:hover:text-zinc-300">
                         <span className="sr-only">GitHub</span>
                         GitHub
                     </a>
-                    <a href="#" className="text-zinc-400 hover:text-zinc-500 dark:hover:text-zinc-300">
+                    <a href="https://www.linkedin.com/in/santhosh-dubbaka-0ba6bb3ab/" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-zinc-500 dark:hover:text-zinc-300">
                         <span className="sr-only">LinkedIn</span>
                         LinkedIn
                     </a>
-                    <a href="#" className="text-zinc-400 hover:text-zinc-500 dark:hover:text-zinc-300">
-                        <span className="sr-only">Twitter</span>
-                        Twitter
+                    <a href="mailto:dsreddy2403@gmail.com" className="text-zinc-400 hover:text-zinc-500 dark:hover:text-zinc-300">
+                        <span className="sr-only">Email</span>
+                        Email
                     </a>
                 </div>
             </div>
